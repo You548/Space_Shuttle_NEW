@@ -2,32 +2,18 @@
 
 ### Information
 
-DESIGNED FOR KSP RO/RSS 1.12.5 (May work on other versions)
+DESIGNED FOR KSP RO/RSS 1.8.1 ~ 1.12.5 (May work on other versions)
 
 Edited version by **You548**
 
-#### all is inside
-MODS REQUIRED: ASET (Props, Avionics, ALCOR Advanced IVA), JSI(Raster prop monitor), KSPWheel, B9PartSwitch, FAR (Ferram Aerospace Research)
+MODS REQUIRED: ASET ([Props](https://spacedock.info/mod/3240/ASET%20Consolidated%20Props%20Pack/download), [Avionics](https://spacedock.info/mod/3239/ASET%20Consolidated%20Avionics%20Pack/download), [ALCOR Advanced IVA](https://spacedock.info/content/alexustas_3789/ALCOR_Advanced_IVA/ALCOR_Advanced_IVA-0.9.7.zip)), [JSI(RasterPropMonitor)](https://github.com/JonnyOThan/RasterPropMonitor/releases/latest), [KSPWheel](https://github.com/shadowmage45/KSPWheel/archive/refs/heads/master.zip), [B9PartSwitch](https://github.com/blowfishpro/B9PartSwitch/releases/latest), [FAR (Ferram Aerospace Research)](https://github.com/dkavolis/Ferram-Aerospace-Research/releases/latest)
 
 All the space shuttles except challenger went through a livery update in 1998. This changed the flag placment and added the NASA meatball on its left wing. I implimented this into the mod with a 1980 varient and a modern varient on all the shuttles. Only exception is challenger which only lasted 9 missions before flying its fatal 10th for STS-51L on January 28th, 1986.
 
 Installation: 
 1. Remove any previous versions of Space Shuttle System from GameData
-2. Put the folder named "SPACE_SHUTTLE_SYSTEM" into your KSP Gamedata.
-4. ???
-5. PROFIT
-
-If you want to try the HD Textures (WIP)Please download the source code of this repository,
-How to: First, open the Code screen of this repository.
-
-![image](https://user-images.githubusercontent.com/102701854/224515219-2712d482-6e8c-42b9-bb06-055733dfca60.jpeg)
-
-Next, press the <>Code button, and you should see a screen like the one below.
-If you see something like this, press the "Download Zip" button near the bottom.
-
-
-
-## Known Bugs
+2. Put the folder named "SPACE_SHUTTLE_SYSTEM" into your KSP GameData
+3. Put the folder Riquired Mods into Your KSP GameData
 
 ### Shadows
 
@@ -38,11 +24,6 @@ Scatterer, even on the very high preset, has shadow errors on the shuttle cargo 
 To fix this, go to the space center and click on scatterer ->  Customize Settings -> Shadows -> Long-Distance terrain shadows and input the following:
 
 - Shadow cascade splits: 0.002,0.005,0.015
-
-
-### Missing parts (If you are having trouble with this problem, look here!)
-
-- Hey Guys! My Is You548.
 
 ## Pictures
 
@@ -68,94 +49,7 @@ Analog cockpit:
 RE ENTRY GUIDANCE (HIGHLY SUGGESTED): https://www.youtube.com/watch?v=5VkAmHpXwn8
 
 ## Changelog
-v1.8
-- RCS no longer has its designated pitch, yaw, and roll limitations. Why? This allows for controlling it from a docking port to actually function properly and not spin out of control. Only thing you need to worry about now is your RCS may drain a little bit faster since it uses whatever ports are pointed in the correct direction. (Also, you will need to replace the OMS pods and shuttle cabin parts with brand new ones on previous shuttle saves for it to properly work)
-- After using the new RCS system mentioned above in RP1 for a month I haven't had a major issue with it.
-- Bump maps/normals have been revamped. Now color textures have their respective bumps assigned properly
-- Because I wrote the proper syntax for overwriting Realism Overhaul's texture config and testing RO's configs for all other parts, there is no longer ANY overwriting required.
-- UVs for the cockpit were finally fixed and react to sunlight wayyyy more properly.
-
-V1.7
-- Revamped Payload Bay texture
-- Revamped payload interior texture of the cabin
-- Cabin subtype enterprise now includes the pilot-static tube
-- Separated payload interior of cabin texture from the primary cabine.dds
-- Other UV fixes
-
-V1.6
-- UV Fix on Cabin for Discovery teardrop
-- Empty shuttle texture for custom shuttle names
-- B9PartSwitch texture configs all merged into RealismOverhaul folder
-- Rudder elevon now has thermal tile texture
-
-V1.5.2
-- Removed Life support configs now that ROKerbalism supports the mod
-
-V1.5.1 Full Release
-- UV Fixes
-- Cabin UV unwrap fixes
-- Fixed Rear Gear texturing
-- Removed Brackets on the bayload bay bottom (They didn't match up with the new texture)
-- Fixing EVA Hatch orientation (Eventually)
-
-V1.5.1 Pre Release
-- UV Fixes
-- Cabin UV unwrap fixes
-- Fixed Rear Gear texturing
-- Removed Brackets on the bayload bay bottom (They didn't match up with the new texture)
-- Fixing EVA Hatch orientation (On full release)
-
-V1.5 Release
-- Brought SSS back up to date with most recent RO (14.0.0-14.6.0)
-- Used giuliodondi updated configs for SSS
-- Kerbalism Support Added (Thanks to D0m1nu2)
-- Removed old wings that had no textures.
-- SIDE NOTE: If tanks do not have helium added to them, you may need to replace the parts with new ones.
-
-V1.5 PRE RELEASE
-- Brought SSS back up to date with most recent RO (Should be 14.6)
-- Used giuliodondi updated configs for SSS
-- Kerbalism Support will be added in full 1.5 release
-- SIDE NOTE: If tanks do not have helium added to them, you may need to replace the parts with new ones.
-
-V1.4 RELEASE
-- Attempt 2 at rebalancing thermal system
-- Fixed B9 Part switch warning
-- Fixed Analog cabin not having waterfall support
-- (WIP) Optional HD textures folder (Currently only for cabin on select shuttles)
-
-V1.4 PRE RELEASE
-- Added new payload bay texture (Removed height maps on it for now)
-- Dylans aerodynamics built in, no longer holding support for raiz aerospaces (This is for the re entry script and because it is easier to mod + it works)
-- Analog cockpit included for 1980 shuttles
-- Combined textures under one left and one right wing (No longer need the separate 1980 wing)
-- Attempt 1 at rebalancing thermal system
-- Windows on shuttle are now a plain black and not green
-
-V1.31
-- Re-Textured External Tank.
-
-V1.3
-- Included Dylan's aerodynamics as an option for aerodynamics.
-
-V1.2A
-- Updated Wings to Raiz Aerospace's most recent (As of 6/7/21)
-
-V1.2
-
-- Added WaterFall support for RS25, AJ10, and RCS thrusters.
-
-V1.1
-
-- Finished accurate 1980 wing textures.
-
-
-V1.0
-
-- Initial Release of wing textures and configs for the space shuttle.
-
-
-
+Coming Soon
 ## Credits
 Thanks to Radar for making this a community mod so we can work on keeping it up to date together.
 
